@@ -1,0 +1,342 @@
+//**********************************************
+// ARIA SFZ Level 2.0
+//----------------------------------------------
+// Dim Cabasa
+// by kinwie@yahoo.com
+// Played by Dimas Syah
+// for a song "Pujaanku"
+//----------------------------------------------
+// SM57 > Neve 1073 > ProTools 11
+// 250 direct, unprocessed samples
+// 24bit 48kHz wav, converted to flac
+// These samples are free to use for anything.
+// But if you do something to it,
+// just let me know if you can...thanks!
+//**********************************************
+
+
+//keymap
+#define $KEY_BACKWARD 69
+#define $KEY_FORWARD 70
+
+//random map
+#define $RAND00 0.00
+#define $RAND01 0.04
+#define $RAND02 0.08
+#define $RAND03 0.12
+#define $RAND04 0.16
+#define $RAND05 0.20
+#define $RAND06 0.24
+#define $RAND07 0.28
+#define $RAND08 0.32
+#define $RAND09 0.36
+#define $RAND10 0.40
+#define $RAND11 0.44
+#define $RAND12 0.48
+#define $RAND13 0.52
+#define $RAND14 0.56
+#define $RAND15 0.60
+#define $RAND16 0.64
+#define $RAND17 0.68
+#define $RAND18 0.72
+#define $RAND19 0.76
+#define $RAND20 0.80
+#define $RAND21 0.84
+#define $RAND22 0.88
+#define $RAND23 0.92
+#define $RAND24 0.96
+#define $RAND25 1.00
+
+
+//////////////////////////////////////////////////
+<control>
+default_path=Dim Cabasa Samples/
+
+<global>
+loop_mode=one_shot
+seq_length=5
+polyphony=1
+
+
+//----------------------------------------------
+<master>
+#define $ART bw
+group_label=$ART
+key=$KEY_BACKWARD
+
+<group> #define $POS 1 seq_position=$POS
+<region> lorand=$RAND00 hirand=$RAND01 region_label=rr$POS_01 sample=$ART_rr$POS_01.flac
+<region> lorand=$RAND01 hirand=$RAND02 region_label=rr$POS_02 sample=$ART_rr$POS_02.flac
+<region> lorand=$RAND02 hirand=$RAND03 region_label=rr$POS_03 sample=$ART_rr$POS_03.flac
+<region> lorand=$RAND03 hirand=$RAND04 region_label=rr$POS_04 sample=$ART_rr$POS_04.flac
+<region> lorand=$RAND04 hirand=$RAND05 region_label=rr$POS_05 sample=$ART_rr$POS_05.flac
+<region> lorand=$RAND05 hirand=$RAND06 region_label=rr$POS_06 sample=$ART_rr$POS_06.flac
+<region> lorand=$RAND06 hirand=$RAND07 region_label=rr$POS_07 sample=$ART_rr$POS_07.flac
+<region> lorand=$RAND07 hirand=$RAND08 region_label=rr$POS_08 sample=$ART_rr$POS_08.flac
+<region> lorand=$RAND08 hirand=$RAND09 region_label=rr$POS_09 sample=$ART_rr$POS_09.flac
+<region> lorand=$RAND09 hirand=$RAND10 region_label=rr$POS_10 sample=$ART_rr$POS_10.flac
+<region> lorand=$RAND10 hirand=$RAND11 region_label=rr$POS_11 sample=$ART_rr$POS_11.flac
+<region> lorand=$RAND11 hirand=$RAND12 region_label=rr$POS_12 sample=$ART_rr$POS_12.flac
+<region> lorand=$RAND12 hirand=$RAND13 region_label=rr$POS_13 sample=$ART_rr$POS_13.flac
+<region> lorand=$RAND13 hirand=$RAND14 region_label=rr$POS_14 sample=$ART_rr$POS_14.flac
+<region> lorand=$RAND14 hirand=$RAND15 region_label=rr$POS_15 sample=$ART_rr$POS_15.flac
+<region> lorand=$RAND15 hirand=$RAND16 region_label=rr$POS_16 sample=$ART_rr$POS_16.flac
+<region> lorand=$RAND16 hirand=$RAND17 region_label=rr$POS_17 sample=$ART_rr$POS_17.flac
+<region> lorand=$RAND17 hirand=$RAND18 region_label=rr$POS_18 sample=$ART_rr$POS_18.flac
+<region> lorand=$RAND18 hirand=$RAND19 region_label=rr$POS_19 sample=$ART_rr$POS_19.flac
+<region> lorand=$RAND19 hirand=$RAND20 region_label=rr$POS_20 sample=$ART_rr$POS_20.flac
+<region> lorand=$RAND20 hirand=$RAND21 region_label=rr$POS_21 sample=$ART_rr$POS_21.flac
+<region> lorand=$RAND21 hirand=$RAND22 region_label=rr$POS_22 sample=$ART_rr$POS_22.flac
+<region> lorand=$RAND22 hirand=$RAND23 region_label=rr$POS_23 sample=$ART_rr$POS_23.flac
+<region> lorand=$RAND23 hirand=$RAND24 region_label=rr$POS_24 sample=$ART_rr$POS_24.flac
+<region> lorand=$RAND24 hirand=$RAND25 region_label=rr$POS_25 sample=$ART_rr$POS_25.flac
+
+<group> #define $POS 2 seq_position=$POS
+<region> lorand=$RAND00 hirand=$RAND01 region_label=rr$POS_01 sample=$ART_rr$POS_01.flac
+<region> lorand=$RAND01 hirand=$RAND02 region_label=rr$POS_02 sample=$ART_rr$POS_02.flac
+<region> lorand=$RAND02 hirand=$RAND03 region_label=rr$POS_03 sample=$ART_rr$POS_03.flac
+<region> lorand=$RAND03 hirand=$RAND04 region_label=rr$POS_04 sample=$ART_rr$POS_04.flac
+<region> lorand=$RAND04 hirand=$RAND05 region_label=rr$POS_05 sample=$ART_rr$POS_05.flac
+<region> lorand=$RAND05 hirand=$RAND06 region_label=rr$POS_06 sample=$ART_rr$POS_06.flac
+<region> lorand=$RAND06 hirand=$RAND07 region_label=rr$POS_07 sample=$ART_rr$POS_07.flac
+<region> lorand=$RAND07 hirand=$RAND08 region_label=rr$POS_08 sample=$ART_rr$POS_08.flac
+<region> lorand=$RAND08 hirand=$RAND09 region_label=rr$POS_09 sample=$ART_rr$POS_09.flac
+<region> lorand=$RAND09 hirand=$RAND10 region_label=rr$POS_10 sample=$ART_rr$POS_10.flac
+<region> lorand=$RAND10 hirand=$RAND11 region_label=rr$POS_11 sample=$ART_rr$POS_11.flac
+<region> lorand=$RAND11 hirand=$RAND12 region_label=rr$POS_12 sample=$ART_rr$POS_12.flac
+<region> lorand=$RAND12 hirand=$RAND13 region_label=rr$POS_13 sample=$ART_rr$POS_13.flac
+<region> lorand=$RAND13 hirand=$RAND14 region_label=rr$POS_14 sample=$ART_rr$POS_14.flac
+<region> lorand=$RAND14 hirand=$RAND15 region_label=rr$POS_15 sample=$ART_rr$POS_15.flac
+<region> lorand=$RAND15 hirand=$RAND16 region_label=rr$POS_16 sample=$ART_rr$POS_16.flac
+<region> lorand=$RAND16 hirand=$RAND17 region_label=rr$POS_17 sample=$ART_rr$POS_17.flac
+<region> lorand=$RAND17 hirand=$RAND18 region_label=rr$POS_18 sample=$ART_rr$POS_18.flac
+<region> lorand=$RAND18 hirand=$RAND19 region_label=rr$POS_19 sample=$ART_rr$POS_19.flac
+<region> lorand=$RAND19 hirand=$RAND20 region_label=rr$POS_20 sample=$ART_rr$POS_20.flac
+<region> lorand=$RAND20 hirand=$RAND21 region_label=rr$POS_21 sample=$ART_rr$POS_21.flac
+<region> lorand=$RAND21 hirand=$RAND22 region_label=rr$POS_22 sample=$ART_rr$POS_22.flac
+<region> lorand=$RAND22 hirand=$RAND23 region_label=rr$POS_23 sample=$ART_rr$POS_23.flac
+<region> lorand=$RAND23 hirand=$RAND24 region_label=rr$POS_24 sample=$ART_rr$POS_24.flac
+<region> lorand=$RAND24 hirand=$RAND25 region_label=rr$POS_25 sample=$ART_rr$POS_25.flac
+
+<group> #define $POS 3 seq_position=$POS
+<region> lorand=$RAND00 hirand=$RAND01 region_label=rr$POS_01 sample=$ART_rr$POS_01.flac
+<region> lorand=$RAND01 hirand=$RAND02 region_label=rr$POS_02 sample=$ART_rr$POS_02.flac
+<region> lorand=$RAND02 hirand=$RAND03 region_label=rr$POS_03 sample=$ART_rr$POS_03.flac
+<region> lorand=$RAND03 hirand=$RAND04 region_label=rr$POS_04 sample=$ART_rr$POS_04.flac
+<region> lorand=$RAND04 hirand=$RAND05 region_label=rr$POS_05 sample=$ART_rr$POS_05.flac
+<region> lorand=$RAND05 hirand=$RAND06 region_label=rr$POS_06 sample=$ART_rr$POS_06.flac
+<region> lorand=$RAND06 hirand=$RAND07 region_label=rr$POS_07 sample=$ART_rr$POS_07.flac
+<region> lorand=$RAND07 hirand=$RAND08 region_label=rr$POS_08 sample=$ART_rr$POS_08.flac
+<region> lorand=$RAND08 hirand=$RAND09 region_label=rr$POS_09 sample=$ART_rr$POS_09.flac
+<region> lorand=$RAND09 hirand=$RAND10 region_label=rr$POS_10 sample=$ART_rr$POS_10.flac
+<region> lorand=$RAND10 hirand=$RAND11 region_label=rr$POS_11 sample=$ART_rr$POS_11.flac
+<region> lorand=$RAND11 hirand=$RAND12 region_label=rr$POS_12 sample=$ART_rr$POS_12.flac
+<region> lorand=$RAND12 hirand=$RAND13 region_label=rr$POS_13 sample=$ART_rr$POS_13.flac
+<region> lorand=$RAND13 hirand=$RAND14 region_label=rr$POS_14 sample=$ART_rr$POS_14.flac
+<region> lorand=$RAND14 hirand=$RAND15 region_label=rr$POS_15 sample=$ART_rr$POS_15.flac
+<region> lorand=$RAND15 hirand=$RAND16 region_label=rr$POS_16 sample=$ART_rr$POS_16.flac
+<region> lorand=$RAND16 hirand=$RAND17 region_label=rr$POS_17 sample=$ART_rr$POS_17.flac
+<region> lorand=$RAND17 hirand=$RAND18 region_label=rr$POS_18 sample=$ART_rr$POS_18.flac
+<region> lorand=$RAND18 hirand=$RAND19 region_label=rr$POS_19 sample=$ART_rr$POS_19.flac
+<region> lorand=$RAND19 hirand=$RAND20 region_label=rr$POS_20 sample=$ART_rr$POS_20.flac
+<region> lorand=$RAND20 hirand=$RAND21 region_label=rr$POS_21 sample=$ART_rr$POS_21.flac
+<region> lorand=$RAND21 hirand=$RAND22 region_label=rr$POS_22 sample=$ART_rr$POS_22.flac
+<region> lorand=$RAND22 hirand=$RAND23 region_label=rr$POS_23 sample=$ART_rr$POS_23.flac
+<region> lorand=$RAND23 hirand=$RAND24 region_label=rr$POS_24 sample=$ART_rr$POS_24.flac
+<region> lorand=$RAND24 hirand=$RAND25 region_label=rr$POS_25 sample=$ART_rr$POS_25.flac
+
+<group> #define $POS 4 seq_position=$POS
+<region> lorand=$RAND00 hirand=$RAND01 region_label=rr$POS_01 sample=$ART_rr$POS_01.flac
+<region> lorand=$RAND01 hirand=$RAND02 region_label=rr$POS_02 sample=$ART_rr$POS_02.flac
+<region> lorand=$RAND02 hirand=$RAND03 region_label=rr$POS_03 sample=$ART_rr$POS_03.flac
+<region> lorand=$RAND03 hirand=$RAND04 region_label=rr$POS_04 sample=$ART_rr$POS_04.flac
+<region> lorand=$RAND04 hirand=$RAND05 region_label=rr$POS_05 sample=$ART_rr$POS_05.flac
+<region> lorand=$RAND05 hirand=$RAND06 region_label=rr$POS_06 sample=$ART_rr$POS_06.flac
+<region> lorand=$RAND06 hirand=$RAND07 region_label=rr$POS_07 sample=$ART_rr$POS_07.flac
+<region> lorand=$RAND07 hirand=$RAND08 region_label=rr$POS_08 sample=$ART_rr$POS_08.flac
+<region> lorand=$RAND08 hirand=$RAND09 region_label=rr$POS_09 sample=$ART_rr$POS_09.flac
+<region> lorand=$RAND09 hirand=$RAND10 region_label=rr$POS_10 sample=$ART_rr$POS_10.flac
+<region> lorand=$RAND10 hirand=$RAND11 region_label=rr$POS_11 sample=$ART_rr$POS_11.flac
+<region> lorand=$RAND11 hirand=$RAND12 region_label=rr$POS_12 sample=$ART_rr$POS_12.flac
+<region> lorand=$RAND12 hirand=$RAND13 region_label=rr$POS_13 sample=$ART_rr$POS_13.flac
+<region> lorand=$RAND13 hirand=$RAND14 region_label=rr$POS_14 sample=$ART_rr$POS_14.flac
+<region> lorand=$RAND14 hirand=$RAND15 region_label=rr$POS_15 sample=$ART_rr$POS_15.flac
+<region> lorand=$RAND15 hirand=$RAND16 region_label=rr$POS_16 sample=$ART_rr$POS_16.flac
+<region> lorand=$RAND16 hirand=$RAND17 region_label=rr$POS_17 sample=$ART_rr$POS_17.flac
+<region> lorand=$RAND17 hirand=$RAND18 region_label=rr$POS_18 sample=$ART_rr$POS_18.flac
+<region> lorand=$RAND18 hirand=$RAND19 region_label=rr$POS_19 sample=$ART_rr$POS_19.flac
+<region> lorand=$RAND19 hirand=$RAND20 region_label=rr$POS_20 sample=$ART_rr$POS_20.flac
+<region> lorand=$RAND20 hirand=$RAND21 region_label=rr$POS_21 sample=$ART_rr$POS_21.flac
+<region> lorand=$RAND21 hirand=$RAND22 region_label=rr$POS_22 sample=$ART_rr$POS_22.flac
+<region> lorand=$RAND22 hirand=$RAND23 region_label=rr$POS_23 sample=$ART_rr$POS_23.flac
+<region> lorand=$RAND23 hirand=$RAND24 region_label=rr$POS_24 sample=$ART_rr$POS_24.flac
+<region> lorand=$RAND24 hirand=$RAND25 region_label=rr$POS_25 sample=$ART_rr$POS_25.flac
+
+<group> #define $POS 5 seq_position=$POS
+<region> lorand=$RAND00 hirand=$RAND01 region_label=rr$POS_01 sample=$ART_rr$POS_01.flac
+<region> lorand=$RAND01 hirand=$RAND02 region_label=rr$POS_02 sample=$ART_rr$POS_02.flac
+<region> lorand=$RAND02 hirand=$RAND03 region_label=rr$POS_03 sample=$ART_rr$POS_03.flac
+<region> lorand=$RAND03 hirand=$RAND04 region_label=rr$POS_04 sample=$ART_rr$POS_04.flac
+<region> lorand=$RAND04 hirand=$RAND05 region_label=rr$POS_05 sample=$ART_rr$POS_05.flac
+<region> lorand=$RAND05 hirand=$RAND06 region_label=rr$POS_06 sample=$ART_rr$POS_06.flac
+<region> lorand=$RAND06 hirand=$RAND07 region_label=rr$POS_07 sample=$ART_rr$POS_07.flac
+<region> lorand=$RAND07 hirand=$RAND08 region_label=rr$POS_08 sample=$ART_rr$POS_08.flac
+<region> lorand=$RAND08 hirand=$RAND09 region_label=rr$POS_09 sample=$ART_rr$POS_09.flac
+<region> lorand=$RAND09 hirand=$RAND10 region_label=rr$POS_10 sample=$ART_rr$POS_10.flac
+<region> lorand=$RAND10 hirand=$RAND11 region_label=rr$POS_11 sample=$ART_rr$POS_11.flac
+<region> lorand=$RAND11 hirand=$RAND12 region_label=rr$POS_12 sample=$ART_rr$POS_12.flac
+<region> lorand=$RAND12 hirand=$RAND13 region_label=rr$POS_13 sample=$ART_rr$POS_13.flac
+<region> lorand=$RAND13 hirand=$RAND14 region_label=rr$POS_14 sample=$ART_rr$POS_14.flac
+<region> lorand=$RAND14 hirand=$RAND15 region_label=rr$POS_15 sample=$ART_rr$POS_15.flac
+<region> lorand=$RAND15 hirand=$RAND16 region_label=rr$POS_16 sample=$ART_rr$POS_16.flac
+<region> lorand=$RAND16 hirand=$RAND17 region_label=rr$POS_17 sample=$ART_rr$POS_17.flac
+<region> lorand=$RAND17 hirand=$RAND18 region_label=rr$POS_18 sample=$ART_rr$POS_18.flac
+<region> lorand=$RAND18 hirand=$RAND19 region_label=rr$POS_19 sample=$ART_rr$POS_19.flac
+<region> lorand=$RAND19 hirand=$RAND20 region_label=rr$POS_20 sample=$ART_rr$POS_20.flac
+<region> lorand=$RAND20 hirand=$RAND21 region_label=rr$POS_21 sample=$ART_rr$POS_21.flac
+<region> lorand=$RAND21 hirand=$RAND22 region_label=rr$POS_22 sample=$ART_rr$POS_22.flac
+<region> lorand=$RAND22 hirand=$RAND23 region_label=rr$POS_23 sample=$ART_rr$POS_23.flac
+<region> lorand=$RAND23 hirand=$RAND24 region_label=rr$POS_24 sample=$ART_rr$POS_24.flac
+<region> lorand=$RAND24 hirand=$RAND25 region_label=rr$POS_25 sample=$ART_rr$POS_25.flac
+
+
+//----------------------------------------------
+<master>
+#define $ART fw
+group_label=$ART
+key=$KEY_FORWARD
+
+<group> #define $POS 1 seq_position=$POS
+<region> lorand=$RAND00 hirand=$RAND01 region_label=rr$POS_01 sample=$ART_rr$POS_01.flac
+<region> lorand=$RAND01 hirand=$RAND02 region_label=rr$POS_02 sample=$ART_rr$POS_02.flac
+<region> lorand=$RAND02 hirand=$RAND03 region_label=rr$POS_03 sample=$ART_rr$POS_03.flac
+<region> lorand=$RAND03 hirand=$RAND04 region_label=rr$POS_04 sample=$ART_rr$POS_04.flac
+<region> lorand=$RAND04 hirand=$RAND05 region_label=rr$POS_05 sample=$ART_rr$POS_05.flac
+<region> lorand=$RAND05 hirand=$RAND06 region_label=rr$POS_06 sample=$ART_rr$POS_06.flac
+<region> lorand=$RAND06 hirand=$RAND07 region_label=rr$POS_07 sample=$ART_rr$POS_07.flac
+<region> lorand=$RAND07 hirand=$RAND08 region_label=rr$POS_08 sample=$ART_rr$POS_08.flac
+<region> lorand=$RAND08 hirand=$RAND09 region_label=rr$POS_09 sample=$ART_rr$POS_09.flac
+<region> lorand=$RAND09 hirand=$RAND10 region_label=rr$POS_10 sample=$ART_rr$POS_10.flac
+<region> lorand=$RAND10 hirand=$RAND11 region_label=rr$POS_11 sample=$ART_rr$POS_11.flac
+<region> lorand=$RAND11 hirand=$RAND12 region_label=rr$POS_12 sample=$ART_rr$POS_12.flac
+<region> lorand=$RAND12 hirand=$RAND13 region_label=rr$POS_13 sample=$ART_rr$POS_13.flac
+<region> lorand=$RAND13 hirand=$RAND14 region_label=rr$POS_14 sample=$ART_rr$POS_14.flac
+<region> lorand=$RAND14 hirand=$RAND15 region_label=rr$POS_15 sample=$ART_rr$POS_15.flac
+<region> lorand=$RAND15 hirand=$RAND16 region_label=rr$POS_16 sample=$ART_rr$POS_16.flac
+<region> lorand=$RAND16 hirand=$RAND17 region_label=rr$POS_17 sample=$ART_rr$POS_17.flac
+<region> lorand=$RAND17 hirand=$RAND18 region_label=rr$POS_18 sample=$ART_rr$POS_18.flac
+<region> lorand=$RAND18 hirand=$RAND19 region_label=rr$POS_19 sample=$ART_rr$POS_19.flac
+<region> lorand=$RAND19 hirand=$RAND20 region_label=rr$POS_20 sample=$ART_rr$POS_20.flac
+<region> lorand=$RAND20 hirand=$RAND21 region_label=rr$POS_21 sample=$ART_rr$POS_21.flac
+<region> lorand=$RAND21 hirand=$RAND22 region_label=rr$POS_22 sample=$ART_rr$POS_22.flac
+<region> lorand=$RAND22 hirand=$RAND23 region_label=rr$POS_23 sample=$ART_rr$POS_23.flac
+<region> lorand=$RAND23 hirand=$RAND24 region_label=rr$POS_24 sample=$ART_rr$POS_24.flac
+<region> lorand=$RAND24 hirand=$RAND25 region_label=rr$POS_25 sample=$ART_rr$POS_25.flac
+
+<group> #define $POS 2 seq_position=$POS
+<region> lorand=$RAND00 hirand=$RAND01 region_label=rr$POS_01 sample=$ART_rr$POS_01.flac
+<region> lorand=$RAND01 hirand=$RAND02 region_label=rr$POS_02 sample=$ART_rr$POS_02.flac
+<region> lorand=$RAND02 hirand=$RAND03 region_label=rr$POS_03 sample=$ART_rr$POS_03.flac
+<region> lorand=$RAND03 hirand=$RAND04 region_label=rr$POS_04 sample=$ART_rr$POS_04.flac
+<region> lorand=$RAND04 hirand=$RAND05 region_label=rr$POS_05 sample=$ART_rr$POS_05.flac
+<region> lorand=$RAND05 hirand=$RAND06 region_label=rr$POS_06 sample=$ART_rr$POS_06.flac
+<region> lorand=$RAND06 hirand=$RAND07 region_label=rr$POS_07 sample=$ART_rr$POS_07.flac
+<region> lorand=$RAND07 hirand=$RAND08 region_label=rr$POS_08 sample=$ART_rr$POS_08.flac
+<region> lorand=$RAND08 hirand=$RAND09 region_label=rr$POS_09 sample=$ART_rr$POS_09.flac
+<region> lorand=$RAND09 hirand=$RAND10 region_label=rr$POS_10 sample=$ART_rr$POS_10.flac
+<region> lorand=$RAND10 hirand=$RAND11 region_label=rr$POS_11 sample=$ART_rr$POS_11.flac
+<region> lorand=$RAND11 hirand=$RAND12 region_label=rr$POS_12 sample=$ART_rr$POS_12.flac
+<region> lorand=$RAND12 hirand=$RAND13 region_label=rr$POS_13 sample=$ART_rr$POS_13.flac
+<region> lorand=$RAND13 hirand=$RAND14 region_label=rr$POS_14 sample=$ART_rr$POS_14.flac
+<region> lorand=$RAND14 hirand=$RAND15 region_label=rr$POS_15 sample=$ART_rr$POS_15.flac
+<region> lorand=$RAND15 hirand=$RAND16 region_label=rr$POS_16 sample=$ART_rr$POS_16.flac
+<region> lorand=$RAND16 hirand=$RAND17 region_label=rr$POS_17 sample=$ART_rr$POS_17.flac
+<region> lorand=$RAND17 hirand=$RAND18 region_label=rr$POS_18 sample=$ART_rr$POS_18.flac
+<region> lorand=$RAND18 hirand=$RAND19 region_label=rr$POS_19 sample=$ART_rr$POS_19.flac
+<region> lorand=$RAND19 hirand=$RAND20 region_label=rr$POS_20 sample=$ART_rr$POS_20.flac
+<region> lorand=$RAND20 hirand=$RAND21 region_label=rr$POS_21 sample=$ART_rr$POS_21.flac
+<region> lorand=$RAND21 hirand=$RAND22 region_label=rr$POS_22 sample=$ART_rr$POS_22.flac
+<region> lorand=$RAND22 hirand=$RAND23 region_label=rr$POS_23 sample=$ART_rr$POS_23.flac
+<region> lorand=$RAND23 hirand=$RAND24 region_label=rr$POS_24 sample=$ART_rr$POS_24.flac
+<region> lorand=$RAND24 hirand=$RAND25 region_label=rr$POS_25 sample=$ART_rr$POS_25.flac
+
+<group> #define $POS 3 seq_position=$POS
+<region> lorand=$RAND00 hirand=$RAND01 region_label=rr$POS_01 sample=$ART_rr$POS_01.flac
+<region> lorand=$RAND01 hirand=$RAND02 region_label=rr$POS_02 sample=$ART_rr$POS_02.flac
+<region> lorand=$RAND02 hirand=$RAND03 region_label=rr$POS_03 sample=$ART_rr$POS_03.flac
+<region> lorand=$RAND03 hirand=$RAND04 region_label=rr$POS_04 sample=$ART_rr$POS_04.flac
+<region> lorand=$RAND04 hirand=$RAND05 region_label=rr$POS_05 sample=$ART_rr$POS_05.flac
+<region> lorand=$RAND05 hirand=$RAND06 region_label=rr$POS_06 sample=$ART_rr$POS_06.flac
+<region> lorand=$RAND06 hirand=$RAND07 region_label=rr$POS_07 sample=$ART_rr$POS_07.flac
+<region> lorand=$RAND07 hirand=$RAND08 region_label=rr$POS_08 sample=$ART_rr$POS_08.flac
+<region> lorand=$RAND08 hirand=$RAND09 region_label=rr$POS_09 sample=$ART_rr$POS_09.flac
+<region> lorand=$RAND09 hirand=$RAND10 region_label=rr$POS_10 sample=$ART_rr$POS_10.flac
+<region> lorand=$RAND10 hirand=$RAND11 region_label=rr$POS_11 sample=$ART_rr$POS_11.flac
+<region> lorand=$RAND11 hirand=$RAND12 region_label=rr$POS_12 sample=$ART_rr$POS_12.flac
+<region> lorand=$RAND12 hirand=$RAND13 region_label=rr$POS_13 sample=$ART_rr$POS_13.flac
+<region> lorand=$RAND13 hirand=$RAND14 region_label=rr$POS_14 sample=$ART_rr$POS_14.flac
+<region> lorand=$RAND14 hirand=$RAND15 region_label=rr$POS_15 sample=$ART_rr$POS_15.flac
+<region> lorand=$RAND15 hirand=$RAND16 region_label=rr$POS_16 sample=$ART_rr$POS_16.flac
+<region> lorand=$RAND16 hirand=$RAND17 region_label=rr$POS_17 sample=$ART_rr$POS_17.flac
+<region> lorand=$RAND17 hirand=$RAND18 region_label=rr$POS_18 sample=$ART_rr$POS_18.flac
+<region> lorand=$RAND18 hirand=$RAND19 region_label=rr$POS_19 sample=$ART_rr$POS_19.flac
+<region> lorand=$RAND19 hirand=$RAND20 region_label=rr$POS_20 sample=$ART_rr$POS_20.flac
+<region> lorand=$RAND20 hirand=$RAND21 region_label=rr$POS_21 sample=$ART_rr$POS_21.flac
+<region> lorand=$RAND21 hirand=$RAND22 region_label=rr$POS_22 sample=$ART_rr$POS_22.flac
+<region> lorand=$RAND22 hirand=$RAND23 region_label=rr$POS_23 sample=$ART_rr$POS_23.flac
+<region> lorand=$RAND23 hirand=$RAND24 region_label=rr$POS_24 sample=$ART_rr$POS_24.flac
+<region> lorand=$RAND24 hirand=$RAND25 region_label=rr$POS_25 sample=$ART_rr$POS_25.flac
+
+<group> #define $POS 4 seq_position=$POS
+<region> lorand=$RAND00 hirand=$RAND01 region_label=rr$POS_01 sample=$ART_rr$POS_01.flac
+<region> lorand=$RAND01 hirand=$RAND02 region_label=rr$POS_02 sample=$ART_rr$POS_02.flac
+<region> lorand=$RAND02 hirand=$RAND03 region_label=rr$POS_03 sample=$ART_rr$POS_03.flac
+<region> lorand=$RAND03 hirand=$RAND04 region_label=rr$POS_04 sample=$ART_rr$POS_04.flac
+<region> lorand=$RAND04 hirand=$RAND05 region_label=rr$POS_05 sample=$ART_rr$POS_05.flac
+<region> lorand=$RAND05 hirand=$RAND06 region_label=rr$POS_06 sample=$ART_rr$POS_06.flac
+<region> lorand=$RAND06 hirand=$RAND07 region_label=rr$POS_07 sample=$ART_rr$POS_07.flac
+<region> lorand=$RAND07 hirand=$RAND08 region_label=rr$POS_08 sample=$ART_rr$POS_08.flac
+<region> lorand=$RAND08 hirand=$RAND09 region_label=rr$POS_09 sample=$ART_rr$POS_09.flac
+<region> lorand=$RAND09 hirand=$RAND10 region_label=rr$POS_10 sample=$ART_rr$POS_10.flac
+<region> lorand=$RAND10 hirand=$RAND11 region_label=rr$POS_11 sample=$ART_rr$POS_11.flac
+<region> lorand=$RAND11 hirand=$RAND12 region_label=rr$POS_12 sample=$ART_rr$POS_12.flac
+<region> lorand=$RAND12 hirand=$RAND13 region_label=rr$POS_13 sample=$ART_rr$POS_13.flac
+<region> lorand=$RAND13 hirand=$RAND14 region_label=rr$POS_14 sample=$ART_rr$POS_14.flac
+<region> lorand=$RAND14 hirand=$RAND15 region_label=rr$POS_15 sample=$ART_rr$POS_15.flac
+<region> lorand=$RAND15 hirand=$RAND16 region_label=rr$POS_16 sample=$ART_rr$POS_16.flac
+<region> lorand=$RAND16 hirand=$RAND17 region_label=rr$POS_17 sample=$ART_rr$POS_17.flac
+<region> lorand=$RAND17 hirand=$RAND18 region_label=rr$POS_18 sample=$ART_rr$POS_18.flac
+<region> lorand=$RAND18 hirand=$RAND19 region_label=rr$POS_19 sample=$ART_rr$POS_19.flac
+<region> lorand=$RAND19 hirand=$RAND20 region_label=rr$POS_20 sample=$ART_rr$POS_20.flac
+<region> lorand=$RAND20 hirand=$RAND21 region_label=rr$POS_21 sample=$ART_rr$POS_21.flac
+<region> lorand=$RAND21 hirand=$RAND22 region_label=rr$POS_22 sample=$ART_rr$POS_22.flac
+<region> lorand=$RAND22 hirand=$RAND23 region_label=rr$POS_23 sample=$ART_rr$POS_23.flac
+<region> lorand=$RAND23 hirand=$RAND24 region_label=rr$POS_24 sample=$ART_rr$POS_24.flac
+<region> lorand=$RAND24 hirand=$RAND25 region_label=rr$POS_25 sample=$ART_rr$POS_25.flac
+
+<group> #define $POS 5 seq_position=$POS
+<region> lorand=$RAND00 hirand=$RAND01 region_label=rr$POS_01 sample=$ART_rr$POS_01.flac
+<region> lorand=$RAND01 hirand=$RAND02 region_label=rr$POS_02 sample=$ART_rr$POS_02.flac
+<region> lorand=$RAND02 hirand=$RAND03 region_label=rr$POS_03 sample=$ART_rr$POS_03.flac
+<region> lorand=$RAND03 hirand=$RAND04 region_label=rr$POS_04 sample=$ART_rr$POS_04.flac
+<region> lorand=$RAND04 hirand=$RAND05 region_label=rr$POS_05 sample=$ART_rr$POS_05.flac
+<region> lorand=$RAND05 hirand=$RAND06 region_label=rr$POS_06 sample=$ART_rr$POS_06.flac
+<region> lorand=$RAND06 hirand=$RAND07 region_label=rr$POS_07 sample=$ART_rr$POS_07.flac
+<region> lorand=$RAND07 hirand=$RAND08 region_label=rr$POS_08 sample=$ART_rr$POS_08.flac
+<region> lorand=$RAND08 hirand=$RAND09 region_label=rr$POS_09 sample=$ART_rr$POS_09.flac
+<region> lorand=$RAND09 hirand=$RAND10 region_label=rr$POS_10 sample=$ART_rr$POS_10.flac
+<region> lorand=$RAND10 hirand=$RAND11 region_label=rr$POS_11 sample=$ART_rr$POS_11.flac
+<region> lorand=$RAND11 hirand=$RAND12 region_label=rr$POS_12 sample=$ART_rr$POS_12.flac
+<region> lorand=$RAND12 hirand=$RAND13 region_label=rr$POS_13 sample=$ART_rr$POS_13.flac
+<region> lorand=$RAND13 hirand=$RAND14 region_label=rr$POS_14 sample=$ART_rr$POS_14.flac
+<region> lorand=$RAND14 hirand=$RAND15 region_label=rr$POS_15 sample=$ART_rr$POS_15.flac
+<region> lorand=$RAND15 hirand=$RAND16 region_label=rr$POS_16 sample=$ART_rr$POS_16.flac
+<region> lorand=$RAND16 hirand=$RAND17 region_label=rr$POS_17 sample=$ART_rr$POS_17.flac
+<region> lorand=$RAND17 hirand=$RAND18 region_label=rr$POS_18 sample=$ART_rr$POS_18.flac
+<region> lorand=$RAND18 hirand=$RAND19 region_label=rr$POS_19 sample=$ART_rr$POS_19.flac
+<region> lorand=$RAND19 hirand=$RAND20 region_label=rr$POS_20 sample=$ART_rr$POS_20.flac
+<region> lorand=$RAND20 hirand=$RAND21 region_label=rr$POS_21 sample=$ART_rr$POS_21.flac
+<region> lorand=$RAND21 hirand=$RAND22 region_label=rr$POS_22 sample=$ART_rr$POS_22.flac
+<region> lorand=$RAND22 hirand=$RAND23 region_label=rr$POS_23 sample=$ART_rr$POS_23.flac
+<region> lorand=$RAND23 hirand=$RAND24 region_label=rr$POS_24 sample=$ART_rr$POS_24.flac
+<region> lorand=$RAND24 hirand=$RAND25 region_label=rr$POS_25 sample=$ART_rr$POS_25.flac
